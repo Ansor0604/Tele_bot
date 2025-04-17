@@ -3,7 +3,7 @@ from flask import Flask
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "7752581705:AAGMWx2IkpqCb13pKxiJ2pXdi9OS-VWqTE0"
 
 def start(update, context):
     update.message.reply_text("Bot ishlayapti!")
